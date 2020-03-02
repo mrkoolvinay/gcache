@@ -11,9 +11,9 @@ import (
 
 // Item is a group of properties
 type Item struct {
-	Id    string
-	Name  string
-	Price float64
+	ID    string  `json:"id"`
+	Name  string  `json:"name"`
+	Price float64 `json:"price"`
 }
 
 var items []Item = []Item{}
